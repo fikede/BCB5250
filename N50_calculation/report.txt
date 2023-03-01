@@ -1,0 +1,4 @@
+Number of Contigs: 13
+Total length of Contigs: 179663
+Length of largest Contig: 132140
+N50: 132140
