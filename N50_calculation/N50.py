@@ -4,9 +4,11 @@ from Bio import SeqIO
 # print(len(sys.argv))
 # print(str(sys.argv[1]))
 
+fil = str(sys.argv[1])
+
 sequences = []
 lens = []
-for record in SeqIO.parse("contigs.fasta", "fasta"):
+for record in SeqIO.parse(fil, "fasta"):
     sequences.append(record.seq)
     lens.append(len(record.seq))
 
